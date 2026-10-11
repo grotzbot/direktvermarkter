@@ -2,7 +2,21 @@
 const osmtogeojson = require("osmtogeojson");
 const fs = require("fs");
 const https = require("https");
-const bbox = "46.51351558059737,4.2626953125,55.26659815231191,17.7978515625";
+const tilegen = require("./tilegen");
+
+// usage: node update_data.js [--bbox "minlat,minlon,maxlat,maxlon"]
+// default bbox: DACH region (Germany, Austria, Switzerland)
+const DEFAULT_BBOX = "46.51351558059737,4.2626953125,55.26659815231191,17.7978515625";
+
+function parseBbox(argv) {
+    const i = argv.indexOf("--bbox");
+    if (i !== -1 && argv[i + 1]) {
+        return argv[i + 1];
+    }
+    return DEFAULT_BBOX;
+}
+
+const bbox = parseBbox(process.argv.slice(2));
 
 function mkdirSyncRecursive(directory) {
     const path = directory.replace(/\/$/, "").split("/");
@@ -11,11 +25,6 @@ function mkdirSyncRecursive(directory) {
         const segment = path.slice(0, i).join("/");
         !fs.existsSync(segment) ? fs.mkdirSync(segment) : null;
     }
-}
-
-function writeFileSync(path, data) {
-    const filename=`${path}/details.json`;
-    fs.existsSync(filename) ? fs.appendFileSync(filename, data) : fs.writeFileSync(filename, data);
 }
 
 function getSimpleNode(node) {
@@ -186,20 +195,37 @@ async function fetchOverpass(attempt) {
 
 async function updateData() {
     const data = await fetchOverpass(1);
-    if (!data.features || data.features.length === 0) {
+    const features = data.features ? data.features.filter((feature) => feature.geometry) : [];
+    if (features.length === 0) {
         throw new Error("Overpass returned no features — refusing to overwrite data/ with an empty result");
     }
-    const farmshopGeoJsonFeatures = [];
 
-    for (const node of data.features) {
-        mkdirSyncRecursive(`data/${node.id}`);
-        writeFileSync(`data/${node.id}`, JSON.stringify(node, null, 0));
-        const simpleNode = getSimpleNode(node);
-        simpleNode ? farmshopGeoJsonFeatures.push(simpleNode) : null;
+    // keep the full properties (for popups) and add the derived category (for marker icons)
+    for (const feature of features) {
+        const simpleNode = getSimpleNode(feature);
+        feature.properties.p = simpleNode ? simpleNode.properties.p : "unknown";
     }
 
-    const farmshopGeo = JSON.stringify({"type": "FeatureCollection","features": farmshopGeoJsonFeatures}, null, 0);
-    fs.writeFileSync("data/farmshopGeoJson.js",  `var lastUpdate = "${lastUpdate}"; var farmshopGeoJson = ${farmshopGeo};`);
+    // write the tiled data: detail cells + precomputed low-zoom cluster tiles + meta.json
+    const tiles = tilegen.buildTiles(features);
+    for (const [path, tile] of Object.entries(tiles)) {
+        const file = `data/${path}`;
+        mkdirSyncRecursive(file.substring(0, file.lastIndexOf("/")));
+        fs.writeFileSync(file, JSON.stringify(tile));
+    }
+
+    // tile index: lets the frontend fetch only tiles that exist (avoids 404s for empty areas)
+    fs.writeFileSync("data/tiles/index.json", JSON.stringify({
+        tiles: Object.keys(tiles).map((path) => path.replace(/^tiles\//, "").replace(/\.json$/, ""))
+    }, null, 2));
+
+    fs.writeFileSync("data/meta.json", JSON.stringify({
+        lastUpdate: lastUpdate,
+        count: features.length,
+        generated: new Date().toISOString()
+    }, null, 2));
+
+    console.log(`${features.length} features -> ${Object.keys(tiles).length} tiles`);
 }
 
 updateData().catch((error) => {

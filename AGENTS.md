@@ -7,27 +7,29 @@ farmshops.eu — a static GitHub Pages site (no build step, no framework, no tes
 ## Layout
 
 - `index.html` — main page. Loads `data/farmshopGeoJson.js` first (defines globals `lastUpdate` and `farmshopGeoJson`), then vendored libs from `js/`, then the app code.
-- `js/direktvermarkter.js` — map setup, marker types, clustering. On marker click it lazy-fetches `data/<type>/<id>/details.json` via `$.getJSON`.
+- `js/direktvermarkter.js` — map setup, marker types, clustering, and the viewport tile loader (loads `data/tiles/...` on `moveend`).
 - `js/popupcontent.js` — popup HTML rendering plus ad-hoc German translations of common OSM tags. Edit here for popup changes.
-- `data/` — GENERATED (~27k files, committed). Never hand-edit; regenerate (below).
+- `tilegen.js` — tiling logic shared by the pipeline (`require`) and the frontend (`window.tilegen`): slippy-math, 1° detail cells, precomputed low-zoom cluster tiles. The frontend must agree with the generator, so the math lives in one file.
+- `data/` — GENERATED (committed). Never hand-edit; regenerate (below). Layout: `tiles/cluster/<z>/<x>/<y>.json` (slippy tiles z0–6 with precomputed 64px-bin clusters + single points), `tiles/detail/<y>/<x>.json` (1°×1° cells with raw point features, full properties embedded), `tiles/index.json` (list of existing tiles — the frontend fetches only these, so empty areas cause no 404s), `meta.json` (`lastUpdate`, feature `count`). There are no per-feature files anymore.
 - `contribute/` — standalone "suggest an entry" page (own HTML/CSS/JS, i18next locales in `contribute/locales/`). Separate mini-app, no build. Still loads Leaflet 1.0.0/jQuery/select2/i18next from cdnjs — not vendored yet.
 
 ## Updating the map data (main workflow)
 
-- `npm install && node update_data.js` (repo root, DACH region). Requires a modern Node (CI uses Node 24); the only dependency is `osmtogeojson`.
-- The script first deletes the entire `data/` directory, then queries the Overpass API (`overpass-api.de`, `[timeout:742]`) — takes several minutes and needs network access.
-- The script sends a descriptive User-Agent — overpass-api.de answers requests without one with HTTP 406, which used to crash the update. Under load overpass-api.de answers "server too busy" (504); the script retries 3 times (waiting 3 and 5 minutes between attempts), then exits 1 with a clear message — just re-run it if it still fails.
+- `npm install && node update_data.js` (repo root, DACH region; `--bbox "minlat,minlon,maxlat,maxlon"` overrides the default DACH bbox). Requires a modern Node (CI uses Node 24); the only dependency is `osmtogeojson`.
+- The script first deletes the entire `data/` directory, then queries the Overpass API (`overpass-api.de`, `[timeout:742]`) — takes several minutes and needs network access. NOTE: it regenerates *everything* for its bbox (no multi-region merging yet — that is Phase 2 of the worldwide plan).
+- The script sends a descriptive User-Agent — overpass-api.de answers requests without one with HTTP 406, which used to crash the update. Under load overpass-api.de answers "server too busy" (504); the script retries 3 times (waiting 5 and 8 minutes between attempts), then exits 1 with a clear message — just re-run it if it still fails.
 - A full DACH run takes several minutes (the Overpass query allows up to 742s server-side). The script uses `node:https` rather than `fetch` on purpose: `fetch` aborts requests whose response headers take more than 5 minutes. Each attempt has a 15-minute inactivity timeout. If Overpass returns zero features, the script refuses to overwrite `data/` and exits 1.
-- Output: one `data/<node|way|relation>/<id>/details.json` per OSM element plus `data/farmshopGeoJson.js`. Note the latter is a JS file (assigns `var lastUpdate` / `var farmshopGeoJson`), not JSON — the frontend loads it via `<script>` tag.
+- Output (see `tilegen.js`): cluster tiles for zoom ≤ 6, 1° detail cells for zoom ≥ 7, `tiles/index.json`, `meta.json`. Each feature keeps its full OSM tags plus the derived category `properties.p` (popupcontent.js skips `p` when rendering).
 - Category mapping lives in `getSimpleNode()` in `update_data.js` (`shop=farm`→farm, `craft=beekeeper`→beekeeper, `amenity=marketplace`→marketplace, `amenity=vending_machine`→vending_machine) and must stay in sync with `pointToLayer` in `js/direktvermarkter.js`; unknown categories render as a black "?" marker.
-- Commit messages count nodes as `find data -type f | wc -l` minus 1 (for `farmshopGeoJson.js`).
+- Commit messages take the node count from `data/meta.json` (`count`).
 - `update.sh` automates pull → update → commit (`🗃 - Datenupdate <n>`) → push. Only pass `update.sh <user> <token>` if you intend the credentialed `https://user:token@github.com/...` push; otherwise run it without arguments.
 - CI (`.github/workflows/update-data-dach.yml`, `workflow_dispatch` only, Node 24 with `actions/checkout@v7`, `actions/setup-node@v7`, `peter-evans/create-pull-request@v8`) runs the same script and opens a PR from branch `update-data`. Prefer PRs over direct pushes to master for data updates.
 
 ## Working on the frontend
 
 - No build/lint/test pipeline: edit `index.html`, `js/`, `css/` directly and reload. `npm test` is a placeholder that always exits 1.
-- Serve over HTTP (e.g. `python3 -m http.server`) — marker popups use `$.getJSON`, which fails on `file://`.
+- Serve over HTTP (e.g. `python3 -m http.server`) — tiles and `meta.json` are fetched with `$.getJSON`, which fails on `file://`.
+- How the map gets its data: at zoom ≤ 6 the frontend loads precomputed cluster tiles (click a cluster to zoom in); at zoom ≥ 7 it loads 1° detail cells and feeds the points to the markercluster group. Marker popups are rendered from the properties embedded in the tiles (`popupcontent(feature, layer)`), so there is no per-feature fetch. Tiles are cached per viewport; leaving the viewport unloads them.
 - All third-party libraries are vendored in `js/` and `css/` (historical convention: dist files are copied in, no npm for the frontend). Do not add CDN dependencies; the page deliberately self-hosts everything (privacy statement in the sidebar).
 
 ### Vendored library versions (updated Oct 2026)

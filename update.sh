@@ -18,8 +18,7 @@ else
 fi
 echo 'loop finished'
 
-number=$(find data -type f | wc -l)
-let number-=1
+number=$(node -p "require('./data/meta.json').count")
 echo "Anzahl der Nodes: $number"
 git add data/*
 git commit -m "🗃 - Datenupdate $number"
