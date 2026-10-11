@@ -1,0 +1,109 @@
+name: Update Data World
+on:
+  workflow_dispatch:
+  schedule:
+    # weekly, Sunday 04:00 UTC
+    - cron: "0 4 * * 0"
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    outputs:
+      chunks: ${{ steps.chunks.outputs.chunks }}
+      chunkCount: ${{ steps.chunks.outputs.chunkCount }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+      - name: Split regions into chunks
+        id: chunks
+        run: |
+          node -e "
+            const regions = require('./regions.json');
+            const chunkSize = 10;
+            const chunks = [];
+            for (let i = 0; i < regions.length; i += chunkSize) chunks.push(regions.slice(i, i + chunkSize));
+            console.log('chunkCount=' + chunks.length);
+            console.log('chunks=' + JSON.stringify(chunks));
+          " >> "$GITHUB_OUTPUT"
+
+  # one job per chunk of regions; queries are spread across the Overpass
+  # instances assigned in regions.json, and low parallelism keeps the load
+  # on each instance far below its fair-use limits
+  fetch:
+    needs: setup
+    strategy:
+      fail-fast: false
+      max-parallel: 6
+      matrix:
+        chunk: ${{ fromJson(needs.setup.outputs.chunks) }}
+    timeout-minutes: 60
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+      - name: Setup Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          cache: npm
+      - name: Install dependencies
+        run: npm install
+      - name: Fetch regions
+        env:
+          CHUNK: ${{ toJson(matrix.chunk) }}
+        run: |
+          echo "$CHUNK" > chunk.json
+          node fetch_regions.js --regions chunk.json --out out
+      - name: Upload features
+        uses: actions/upload-artifact@v7
+        with:
+          name: features-${{ strategy.job-index }}
+          path: out/features.json
+          if-no-files-found: error
+
+  merge:
+    needs: [setup, fetch]
+    timeout-minutes: 30
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+      - name: Setup Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+      - name: Install dependencies
+        run: npm install
+      - name: Download features
+        uses: actions/download-artifact@v8
+        with:
+          pattern: features-*
+          path: artifacts
+          merge-multiple: false
+      - name: Verify all chunks fetched
+        run: |
+          EXPECTED=${{ needs.setup.outputs.chunkCount }}
+          ACTUAL=$(find artifacts -name features.json | wc -l)
+          echo "expected $EXPECTED chunk feature files, got $ACTUAL"
+          if [ "$ACTUAL" -ne "$EXPECTED" ]; then
+            echo "missing chunks — re-run the failed fetch jobs, then re-run this merge job"
+            exit 1
+          fi
+      - name: Build tiles
+        run: node build_tiles.js --out data/ artifacts/*/features.json
+      - name: Add changes to commit
+        run: |
+          git config --global user.email "np-reply@example.com"
+          git config --global user.name "GH Action"
+          number=$(node -p "require('./data/meta.json').count")
+          echo "Anzahl der Nodes: $number"
+          git add data/*
+          git commit -m "🗃 - Auto-Datenupdate Weltweit $number Nodes"
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v8
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          title: Auto-commit Data Update worldwide
+          commit-message: Overpass queries from OpenStreetMap
+          branch: update-data
+          delete-branch: true
