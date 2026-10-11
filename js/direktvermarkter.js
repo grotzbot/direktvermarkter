@@ -256,7 +256,8 @@ function loadVisibleTiles() {
     }
 
     // fetch tiles entering the viewport (a 404 means an empty area — cache it)
-    for (var path in needed) {
+    // (forEach, not for-in: the async callbacks must each capture their own path)
+    Object.keys(needed).forEach(function (path) {
         if (!loadedTiles[path] && !pendingTiles[path]) {
             pendingTiles[path] = true;
             $.getJSON("data/tiles/" + path + ".json")
@@ -273,7 +274,7 @@ function loadVisibleTiles() {
                     delete pendingTiles[path];
                 });
         }
-    }
+    });
 }
 
 map.addLayer(tiles);
