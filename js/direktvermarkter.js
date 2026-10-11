@@ -213,6 +213,9 @@ function addTile(path, tile) {
     var features = tile.features || [];
     for (var i = 0; i < features.length; i++) {
         var feature = features[i];
+        if (!feature.geometry || feature.geometry.type !== "Point") {
+            continue; // the tile system is point-based
+        }
         if (feature.properties.cluster) {
             layers.push(addClusterFeature(feature));
         } else {

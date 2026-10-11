@@ -27,6 +27,27 @@ function mkdirSyncRecursive(directory) {
     }
 }
 
+// bounding-box center of a GeoJSON geometry (Point/LineString/Polygon/MultiPolygon)
+function geometryCenter(geometry) {
+    const positions = [];
+    const collect = (coords) => {
+        if (typeof coords[0] === "number") {
+            positions.push(coords);
+        } else {
+            coords.forEach(collect);
+        }
+    };
+    collect(geometry.coordinates);
+    let minLon = Infinity, maxLon = -Infinity, minLat = Infinity, maxLat = -Infinity;
+    for (const [lon, lat] of positions) {
+        if (lon < minLon) minLon = lon;
+        if (lon > maxLon) maxLon = lon;
+        if (lat < minLat) minLat = lat;
+        if (lat > maxLat) maxLat = lat;
+    }
+    return [(minLon + maxLon) / 2, (minLat + maxLat) / 2];
+}
+
 function getSimpleNode(node) {
 
   if (node.properties)
@@ -202,6 +223,12 @@ async function updateData() {
 
     // keep the full properties (for popups) and add the derived category (for marker icons)
     for (const feature of features) {
+        // the tile system is point-based: area features (ways/relations mapped as
+        // buildings etc.) become a pin at their center — like the old site
+        // ("Polygone erhalten einen Pin in ihrem Zentrum")
+        if (feature.geometry.type !== "Point") {
+            feature.geometry = { type: "Point", coordinates: geometryCenter(feature.geometry) };
+        }
         const simpleNode = getSimpleNode(feature);
         feature.properties.p = simpleNode ? simpleNode.properties.p : "unknown";
     }
