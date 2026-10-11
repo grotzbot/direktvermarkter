@@ -1,0 +1,1 @@
+{"type":"FeatureCollection","features":[{"type":"Feature","id":"cluster/0/0/0/1-2","properties":{"cluster":true,"count":25600,"farm":11726,"marketplace":3817,"vending_machine":7706,"beekeeper":2251,"unknown":100},"geometry":{"type":"Point","coordinates":[9.789453129367223,49.9345236353282]}}]}
