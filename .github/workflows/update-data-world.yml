@@ -1,9 +1,5 @@
 name: Update Data World
-on:
-  workflow_dispatch:
-  schedule:
-    # weekly, Sunday 04:00 UTC
-    - cron: "0 4 * * 0"
+on: [workflow_dispatch]
 
 jobs:
   setup:
