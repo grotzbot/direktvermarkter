@@ -6,7 +6,7 @@ farmshops.eu — a static GitHub Pages site (no build step, no framework, no tes
 
 ## Layout
 
-- `index.html` — main page. Loads `data/farmshopGeoJson.js` first (defines globals `lastUpdate` and `farmshopGeoJson`), then vendored libs from `js/`, then the app code.
+- `index.html` — main page. Loads the vendored libs from `js/` plus `tilegen.js`, then the app code.
 - `js/direktvermarkter.js` — map setup, marker types, clustering, and the viewport tile loader (loads `data/tiles/...` on `moveend`).
 - `js/popupcontent.js` — popup HTML rendering plus ad-hoc German translations of common OSM tags. Edit here for popup changes.
 - `tilegen.js` — tiling logic shared by the pipeline (`require`) and the frontend (`window.tilegen`): slippy-math, 1° detail cells, precomputed low-zoom cluster tiles. The frontend must agree with the generator, so the math lives in one file.

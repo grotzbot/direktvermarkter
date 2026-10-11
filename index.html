@@ -33,7 +33,6 @@
 </head>
 
 <body>
-    <script src="data/farmshopGeoJson.js"></script>
     <div id="sidebar" class="leaflet-sidebar collapsed">
         <!-- Nav tabs -->
         <div class="leaflet-sidebar-tabs">
@@ -135,11 +134,7 @@
                     <a href="https://github.com/CodeforKarlsruhe/direktvermarkter/blob/master/update_data.js"
                         target="_blank" rel="noopener">einem Script</a> manuell in regelmäßigen Abständen&#8482; abgeglichen. Ein automatischer Abgleich ist
                     geplant.
-                    <p>
-                        <script>
-                            document.write(lastUpdate);
-                        </script>
-                    </p>
+                    <p><span id="lastUpdate"></span></p>
                 </p>
                 <p>
                     <h3>Wie erreiche ich euch?</h3>
@@ -247,6 +242,7 @@
     <script src="js/L.Control.Locate.min.js"></script>
     <script src="js/opening_hours+deps.min.js"></script>
     <script src="js/popupcontent.js"></script>
+    <script src="tilegen.js"></script>
     <script src="js/direktvermarkter.js"></script>
 
 </body>
