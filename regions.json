@@ -1,0 +1,3042 @@
+[
+ {
+  "name": "Afghanistan",
+  "bbox": [
+   29.3919,
+   60.4857,
+   38.4564,
+   74.8754
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Albania",
+  "bbox": [
+   39.6535,
+   19.3223,
+   42.6479,
+   21.0311
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Algeria",
+  "bbox": [
+   18.9866,
+   -8.6834,
+   37.0924,
+   11.9679
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Andorra",
+  "bbox": [
+   42.4345,
+   1.4148,
+   42.6427,
+   1.7395
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Angola",
+  "bbox": [
+   -18.0197,
+   11.7509,
+   -4.4289,
+   24.0467
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Antigua and Barbuda",
+  "bbox": [
+   16.9972,
+   -61.882,
+   17.7141,
+   -61.686
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Argentina-1",
+  "bbox": [
+   -55.0321,
+   -73.5763,
+   -38.4173,
+   -53.6713
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Argentina-2",
+  "bbox": [
+   -38.4173,
+   -73.5763,
+   -21.8025,
+   -53.6713
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Armenia",
+  "bbox": [
+   38.869,
+   43.4553,
+   41.291,
+   46.5848
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Australia-A",
+  "bbox": [
+   -53.1846,
+   73.2539,
+   -52.9663,
+   73.8378
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Australia-B-1",
+  "bbox": [
+   -54.7492,
+   96.8277,
+   -32.4005,
+   120.548
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Australia-B-2",
+  "bbox": [
+   -54.7492,
+   120.548,
+   -32.4005,
+   144.2684
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Australia-B-3",
+  "bbox": [
+   -54.7492,
+   144.2684,
+   -32.4005,
+   167.9887
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Australia-B-4",
+  "bbox": [
+   -32.4005,
+   96.8277,
+   -10.0518,
+   120.548
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Australia-B-5",
+  "bbox": [
+   -32.4005,
+   120.548,
+   -10.0518,
+   144.2684
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Australia-B-6",
+  "bbox": [
+   -32.4005,
+   144.2684,
+   -10.0518,
+   167.9887
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Austria",
+  "bbox": [
+   46.3997,
+   9.524,
+   49.0011,
+   17.1474
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Azerbaijan",
+  "bbox": [
+   38.3987,
+   44.7834,
+   41.891,
+   50.3068
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Bahrain",
+  "bbox": [
+   25.8068,
+   50.4524,
+   26.2464,
+   50.6175
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Bangladesh",
+  "bbox": [
+   20.7904,
+   88.0234,
+   26.5715,
+   92.6253
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Barbados",
+  "bbox": [
+   13.0622,
+   -59.6467,
+   13.3177,
+   -59.4276
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Belarus",
+  "bbox": [
+   51.265,
+   23.1812,
+   56.1458,
+   32.7103
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Belgium",
+  "bbox": [
+   49.5109,
+   2.5249,
+   51.4911,
+   6.3645
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Belize",
+  "bbox": [
+   15.8887,
+   -89.2375,
+   18.4823,
+   -87.7886
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Benin",
+  "bbox": [
+   6.2168,
+   0.78,
+   12.3838,
+   3.8345
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Bhutan",
+  "bbox": [
+   26.7016,
+   88.7604,
+   28.3112,
+   92.0834
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Bolivia",
+  "bbox": [
+   -22.8917,
+   -69.6259,
+   -9.7104,
+   -57.5062
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Bosnia and Herzegovina",
+  "bbox": [
+   42.5597,
+   15.7366,
+   45.2766,
+   19.5838
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Botswana",
+  "bbox": [
+   -26.8542,
+   19.9773,
+   -17.7876,
+   29.3152
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Brazil-1",
+  "bbox": [
+   -33.7422,
+   -74.0021,
+   -14.2421,
+   -54.4093
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Brazil-2",
+  "bbox": [
+   -33.7422,
+   -54.4093,
+   -14.2421,
+   -34.8166
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Brazil-3",
+  "bbox": [
+   -14.2421,
+   -74.0021,
+   5.258,
+   -54.4093
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Brazil-4",
+  "bbox": [
+   -14.2421,
+   -54.4093,
+   5.258,
+   -34.8166
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Brunei",
+  "bbox": [
+   4.024,
+   114.0951,
+   5.0224,
+   115.3268
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Bulgaria",
+  "bbox": [
+   41.2436,
+   22.344,
+   44.2378,
+   28.5854
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Burkina Faso",
+  "bbox": [
+   9.4247,
+   -5.507,
+   15.0779,
+   2.3892
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Burundi",
+  "bbox": [
+   -4.4559,
+   29.0144,
+   -2.313,
+   30.8111
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Cabo Verde",
+  "bbox": [
+   14.8182,
+   -25.3416,
+   17.1937,
+   -22.6926
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Cambodia",
+  "bbox": [
+   10.4112,
+   102.3197,
+   14.7051,
+   107.6055
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Cameroon",
+  "bbox": [
+   1.6762,
+   8.5328,
+   13.0785,
+   16.1834
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Canada-1",
+  "bbox": [
+   41.6749,
+   -140.86,
+   62.3955,
+   -118.8121
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Canada-2",
+  "bbox": [
+   41.6749,
+   -118.8121,
+   62.3955,
+   -96.7643
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Canada-3",
+  "bbox": [
+   41.6749,
+   -96.7643,
+   62.3955,
+   -74.7164
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Canada-4",
+  "bbox": [
+   41.6749,
+   -74.7164,
+   62.3955,
+   -52.6685
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Canada-5",
+  "bbox": [
+   62.3955,
+   -140.86,
+   83.1161,
+   -118.8121
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Canada-6",
+  "bbox": [
+   62.3955,
+   -118.8121,
+   83.1161,
+   -96.7643
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Canada-7",
+  "bbox": [
+   62.3955,
+   -96.7643,
+   83.1161,
+   -74.7164
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Canada-8",
+  "bbox": [
+   62.3955,
+   -74.7164,
+   83.1161,
+   -52.6685
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Central African Republic",
+  "bbox": [
+   2.2701,
+   14.4407,
+   10.9962,
+   27.3324
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Chad",
+  "bbox": [
+   7.4753,
+   13.4482,
+   23.4452,
+   23.9834
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Chile-A",
+  "bbox": [
+   -27.1404,
+   -109.4292,
+   -27.0684,
+   -109.2765
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Chile-B-1",
+  "bbox": [
+   -55.8917,
+   -78.9895,
+   -36.6989,
+   -66.4721
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Chile-B-2",
+  "bbox": [
+   -36.6989,
+   -78.9895,
+   -17.5061,
+   -66.4721
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "China-1",
+  "bbox": [
+   18.2183,
+   73.6073,
+   35.8869,
+   93.9809
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "China-2",
+  "bbox": [
+   18.2183,
+   93.9809,
+   35.8869,
+   114.3545
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "China-3",
+  "bbox": [
+   18.2183,
+   114.3545,
+   35.8869,
+   134.7281
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "China-4",
+  "bbox": [
+   35.8869,
+   73.6073,
+   53.5556,
+   93.9809
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "China-5",
+  "bbox": [
+   35.8869,
+   93.9809,
+   53.5556,
+   114.3545
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "China-6",
+  "bbox": [
+   35.8869,
+   114.3545,
+   53.5556,
+   134.7281
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Colombia",
+  "bbox": [
+   -4.2359,
+   -78.9577,
+   12.4344,
+   -66.876
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Comoros",
+  "bbox": [
+   -12.3683,
+   43.2561,
+   -11.3685,
+   44.5268
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Costa Rica",
+  "bbox": [
+   8.0707,
+   -85.8874,
+   11.1895,
+   -82.5692
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Croatia",
+  "bbox": [
+   42.4329,
+   13.5779,
+   46.5346,
+   19.401
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Cuba",
+  "bbox": [
+   19.8555,
+   -84.8772,
+   23.1904,
+   -74.1368
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Cyprus",
+  "bbox": [
+   34.5696,
+   32.3172,
+   35.1827,
+   34.0502
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Czechia",
+  "bbox": [
+   48.5762,
+   12.0897,
+   51.0378,
+   18.8293
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Democratic Republic of the Congo",
+  "bbox": [
+   -13.4538,
+   12.2404,
+   5.3121,
+   31.2561
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Denmark-1",
+  "bbox": [
+   54.6289,
+   -72.8181,
+   69.1142,
+   -50.8304
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Denmark-2",
+  "bbox": [
+   54.6289,
+   -50.8304,
+   69.1142,
+   -28.8427
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Denmark-3",
+  "bbox": [
+   54.6289,
+   -28.8427,
+   69.1142,
+   -6.8551
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Denmark-4",
+  "bbox": [
+   54.6289,
+   -6.8551,
+   69.1142,
+   15.1326
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Denmark-5",
+  "bbox": [
+   69.1142,
+   -72.8181,
+   83.5996,
+   -50.8304
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Denmark-6",
+  "bbox": [
+   69.1142,
+   -50.8304,
+   83.5996,
+   -28.8427
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Denmark-7",
+  "bbox": [
+   69.1142,
+   -28.8427,
+   83.5996,
+   -6.8551
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Denmark-8",
+  "bbox": [
+   69.1142,
+   -6.8551,
+   83.5996,
+   15.1326
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Djibouti",
+  "bbox": [
+   10.941,
+   41.7646,
+   12.7086,
+   43.4098
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Dominica",
+  "bbox": [
+   15.2273,
+   -61.4812,
+   15.6331,
+   -61.2772
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Dominican Republic",
+  "bbox": [
+   17.6356,
+   -72.0004,
+   19.914,
+   -68.3593
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "East Timor",
+  "bbox": [
+   -9.5119,
+   124.0363,
+   -8.1399,
+   127.2961
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Ecuador",
+  "bbox": [
+   -4.9906,
+   -91.6542,
+   1.4554,
+   -75.2496
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Egypt",
+  "bbox": [
+   21.9949,
+   24.7032,
+   31.655,
+   36.8714
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "El Salvador",
+  "bbox": [
+   13.164,
+   -90.1047,
+   14.4311,
+   -87.7153
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Equatorial Guinea",
+  "bbox": [
+   0.9601,
+   8.4449,
+   3.7583,
+   11.3354
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Eritrea",
+  "bbox": [
+   12.3766,
+   36.4481,
+   18.0051,
+   43.1167
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Estonia",
+  "bbox": [
+   57.5255,
+   21.8623,
+   59.639,
+   28.1511
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Ethiopia",
+  "bbox": [
+   3.4561,
+   32.9989,
+   14.8523,
+   47.7316
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Federated States of Micronesia",
+  "bbox": [
+   5.2772,
+   138.0619,
+   9.5933,
+   162.9935
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Fiji-A",
+  "bbox": [
+   -20.6705,
+   -180.0,
+   -16.1261,
+   -178.2511
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Fiji-B",
+  "bbox": [
+   -21.7059,
+   174.5872,
+   -12.477,
+   180.0
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Finland",
+  "bbox": [
+   59.816,
+   19.519,
+   70.0648,
+   31.534
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "France-A",
+  "bbox": [
+   -14.3249,
+   -178.1944,
+   -13.2217,
+   -176.1479
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "France-B",
+  "bbox": [
+   -20.8759,
+   -151.5058,
+   -8.7815,
+   -136.3141
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "France-C-1",
+  "bbox": [
+   2.121,
+   -63.115,
+   24.61,
+   -51.6525
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "France-C-2",
+  "bbox": [
+   24.61,
+   -63.115,
+   47.099,
+   -51.6525
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "France-D",
+  "bbox": [
+   41.3849,
+   -4.7625,
+   51.0971,
+   9.5507
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "France-E-1",
+  "bbox": [
+   -49.7099,
+   45.0694,
+   -31.1814,
+   57.8125
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "France-E-2",
+  "bbox": [
+   -49.7099,
+   57.8125,
+   -31.1814,
+   70.5555
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "France-E-3",
+  "bbox": [
+   -31.1814,
+   45.0694,
+   -12.653,
+   57.8125
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "France-E-4",
+  "bbox": [
+   -31.1814,
+   57.8125,
+   -12.653,
+   70.5555
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "France-F",
+  "bbox": [
+   -22.6611,
+   159.9282,
+   -19.1146,
+   168.1391
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Gabon",
+  "bbox": [
+   -3.9163,
+   8.7031,
+   2.3022,
+   14.4806
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Gambia",
+  "bbox": [
+   13.0642,
+   -16.7693,
+   13.8121,
+   -13.8267
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Georgia",
+  "bbox": [
+   41.0702,
+   39.9783,
+   43.5698,
+   46.6726
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Germany",
+  "bbox": [
+   47.2788,
+   5.8575,
+   55.0587,
+   14.9639
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Ghana",
+  "bbox": [
+   4.7625,
+   -3.2439,
+   11.1669,
+   1.1851
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Greece",
+  "bbox": [
+   34.9345,
+   19.6489,
+   41.7438,
+   28.2301
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Grenada",
+  "bbox": [
+   12.0084,
+   -61.7822,
+   12.237,
+   -61.607
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Guatemala",
+  "bbox": [
+   13.7365,
+   -92.2352,
+   17.8164,
+   -88.2283
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Guinea",
+  "bbox": [
+   7.2159,
+   -15.043,
+   12.6739,
+   -7.6812
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Guinea-Bissau",
+  "bbox": [
+   10.9401,
+   -16.6569,
+   12.6799,
+   -13.6735
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Guyana",
+  "bbox": [
+   1.2012,
+   -61.3768,
+   8.5493,
+   -56.4828
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Haiti",
+  "bbox": [
+   18.0392,
+   -74.46,
+   20.0937,
+   -71.6453
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Honduras",
+  "bbox": [
+   12.9792,
+   -89.3626,
+   16.514,
+   -83.1575
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Hungary",
+  "bbox": [
+   45.753,
+   16.2525,
+   48.5535,
+   22.8767
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Iceland",
+  "bbox": [
+   63.4067,
+   -24.4757,
+   66.5261,
+   -13.5561
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "India-1",
+  "bbox": [
+   6.7487,
+   68.165,
+   21.1223,
+   82.7543
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "India-2",
+  "bbox": [
+   6.7487,
+   82.7543,
+   21.1223,
+   97.3436
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "India-3",
+  "bbox": [
+   21.1223,
+   68.165,
+   35.4959,
+   82.7543
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "India-4",
+  "bbox": [
+   21.1223,
+   82.7543,
+   35.4959,
+   97.3436
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Indonesia-1",
+  "bbox": [
+   -10.9097,
+   95.2066,
+   5.907,
+   118.0914
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Indonesia-2",
+  "bbox": [
+   -10.9097,
+   118.0914,
+   5.907,
+   140.9762
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Iran",
+  "bbox": [
+   25.1021,
+   44.0232,
+   39.7686,
+   63.3052
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Iraq",
+  "bbox": [
+   29.0637,
+   38.7735,
+   37.3719,
+   48.5465
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Ireland",
+  "bbox": [
+   51.4737,
+   -10.3826,
+   55.3658,
+   -6.045
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Israel",
+  "bbox": [
+   29.4773,
+   34.1981,
+   33.4157,
+   35.888
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Italy",
+  "bbox": [
+   36.6878,
+   6.6277,
+   47.0821,
+   18.4606
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Ivory Coast",
+  "bbox": [
+   4.3513,
+   -8.6036,
+   10.7241,
+   -2.5383
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Jamaica",
+  "bbox": [
+   17.7149,
+   -78.326,
+   18.5222,
+   -76.2328
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Japan",
+  "bbox": [
+   24.2661,
+   123.6807,
+   45.5095,
+   145.7513
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Jordan",
+  "bbox": [
+   29.1905,
+   34.9734,
+   33.3722,
+   39.2928
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Kashmir",
+  "bbox": [
+   35.1099,
+   76.8128,
+   35.6133,
+   77.724
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Kazakhstan-1",
+  "bbox": [
+   40.6086,
+   46.6609,
+   55.3896,
+   66.9919
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Kazakhstan-2",
+  "bbox": [
+   40.6086,
+   66.9919,
+   55.3896,
+   87.3229
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Kenya",
+  "bbox": [
+   -4.6924,
+   33.9,
+   5.4923,
+   41.884
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Kiribati-A",
+  "bbox": [
+   -11.4568,
+   -174.5407,
+   3.9235,
+   -151.7826
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Kiribati-B",
+  "bbox": [
+   -1.2564,
+   169.5229,
+   3.1488,
+   174.7732
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Kosovo",
+  "bbox": [
+   41.8538,
+   20.0543,
+   43.2611,
+   21.7521
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Kuwait",
+  "bbox": [
+   28.5332,
+   46.5314,
+   30.0973,
+   48.4425
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Kyrgyzstan",
+  "bbox": [
+   39.2075,
+   69.2291,
+   43.2404,
+   80.2462
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Laos",
+  "bbox": [
+   13.9212,
+   100.1149,
+   22.4953,
+   107.6337
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Latvia",
+  "bbox": [
+   55.6675,
+   21.0149,
+   58.0634,
+   28.2021
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Lebanon",
+  "bbox": [
+   33.0757,
+   35.1551,
+   34.6787,
+   36.585
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Lesotho",
+  "bbox": [
+   -30.6423,
+   27.0569,
+   -28.5817,
+   29.3867
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Liberia",
+  "bbox": [
+   4.3513,
+   -11.4545,
+   8.5377,
+   -7.3999
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Libya",
+  "bbox": [
+   19.4966,
+   9.391,
+   33.1819,
+   25.1505
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Liechtenstein",
+  "bbox": [
+   47.0574,
+   9.4843,
+   47.2708,
+   9.6012
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Lithuania",
+  "bbox": [
+   53.893,
+   20.8998,
+   56.4112,
+   26.7757
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Luxembourg",
+  "bbox": [
+   49.4455,
+   5.725,
+   50.1672,
+   6.4938
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Madagascar",
+  "bbox": [
+   -25.5705,
+   43.2571,
+   -12.0796,
+   50.4413
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Malawi",
+  "bbox": [
+   -17.1311,
+   32.6704,
+   -9.395,
+   35.8928
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Malaysia",
+  "bbox": [
+   0.862,
+   99.6566,
+   7.3517,
+   119.2628
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Maldives",
+  "bbox": [
+   3.2294,
+   73.382,
+   4.2477,
+   73.5271
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Mali",
+  "bbox": [
+   10.1433,
+   -12.2284,
+   24.9956,
+   4.2347
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Malta",
+  "bbox": [
+   35.8202,
+   14.1942,
+   36.0758,
+   14.537
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Marshall Islands",
+  "bbox": [
+   5.7998,
+   166.8447,
+   11.1687,
+   171.7305
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Mauritania",
+  "bbox": [
+   14.7454,
+   -17.064,
+   27.2859,
+   -4.8226
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Mauritius",
+  "bbox": [
+   -20.5132,
+   57.3283,
+   -19.9899,
+   57.792
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Mexico-1",
+  "bbox": [
+   14.5454,
+   -118.4014,
+   32.7153,
+   -102.5575
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Mexico-2",
+  "bbox": [
+   14.5454,
+   -102.5575,
+   32.7153,
+   -86.7136
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Moldova",
+  "bbox": [
+   45.4504,
+   26.6189,
+   48.4777,
+   30.1311
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Monaco",
+  "bbox": [
+   43.7317,
+   7.3777,
+   43.7709,
+   7.4387
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Mongolia-1",
+  "bbox": [
+   41.5955,
+   87.7547,
+   52.1173,
+   103.8263
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Mongolia-2",
+  "bbox": [
+   41.5955,
+   103.8263,
+   52.1173,
+   119.8979
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Montenegro",
+  "bbox": [
+   41.8691,
+   18.4363,
+   43.5423,
+   20.3477
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Morocco",
+  "bbox": [
+   21.4207,
+   -17.0031,
+   35.9299,
+   -1.0655
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Mozambique",
+  "bbox": [
+   -26.8616,
+   30.225,
+   -10.4644,
+   40.8352
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Myanmar",
+  "bbox": [
+   9.8754,
+   92.192,
+   28.517,
+   101.1473
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Namibia",
+  "bbox": [
+   -28.9388,
+   11.7335,
+   -16.9677,
+   25.2588
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Nauru",
+  "bbox": [
+   -0.5508,
+   166.907,
+   -0.4894,
+   166.9584
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Nepal",
+  "bbox": [
+   26.3603,
+   80.0707,
+   30.3875,
+   88.1572
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Netherlands-A",
+  "bbox": [
+   12.0321,
+   -70.0509,
+   18.0689,
+   -62.9375
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Netherlands-B",
+  "bbox": [
+   50.7504,
+   3.3801,
+   53.6255,
+   7.1973
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "New Zealand-A-1",
+  "bbox": [
+   -44.3306,
+   -176.8477,
+   -26.4385,
+   -159.7395
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "New Zealand-A-2",
+  "bbox": [
+   -26.4385,
+   -176.8477,
+   -8.5465,
+   -159.7395
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "New Zealand-B",
+  "bbox": [
+   -52.5703,
+   165.9041,
+   -34.4291,
+   178.516
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Nicaragua",
+  "bbox": [
+   10.7354,
+   -87.6702,
+   15.0081,
+   -83.1575
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Niger",
+  "bbox": [
+   11.6963,
+   0.1851,
+   23.5179,
+   15.9632
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Nigeria",
+  "bbox": [
+   4.2774,
+   2.686,
+   13.8729,
+   14.6197
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "North Korea",
+  "bbox": [
+   37.719,
+   124.3486,
+   42.9981,
+   130.658
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "North Macedonia",
+  "bbox": [
+   40.8499,
+   20.4486,
+   42.3582,
+   23.0057
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Northern Cyprus",
+  "bbox": [
+   35.0003,
+   32.7202,
+   35.6621,
+   34.5561
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Norway-1",
+  "bbox": [
+   58.0209,
+   -9.0989,
+   80.4778,
+   12.2652
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Norway-2",
+  "bbox": [
+   58.0209,
+   12.2652,
+   80.4778,
+   33.6293
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Oman",
+  "bbox": [
+   16.6484,
+   51.9776,
+   26.3563,
+   59.8375
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Pakistan",
+  "bbox": [
+   23.7534,
+   61.0342,
+   37.0367,
+   77.0307
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Palau",
+  "bbox": [
+   3.0219,
+   131.1367,
+   7.7121,
+   134.6596
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Panama",
+  "bbox": [
+   7.2201,
+   -83.0234,
+   9.5979,
+   -77.2123
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Papua New Guinea",
+  "bbox": [
+   -11.6306,
+   140.8623,
+   -1.3532,
+   155.9332
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Paraguay",
+  "bbox": [
+   -27.5538,
+   -62.651,
+   -19.2862,
+   -54.2669
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Peru",
+  "bbox": [
+   -18.3456,
+   -81.2894,
+   -0.0417,
+   -68.7281
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Philippines",
+  "bbox": [
+   5.0602,
+   116.9695,
+   20.8413,
+   126.5934
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Poland",
+  "bbox": [
+   49.0208,
+   14.1286,
+   54.8382,
+   24.1058
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Portugal-1",
+  "bbox": [
+   32.6483,
+   -31.283,
+   42.1374,
+   -18.7477
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Portugal-2",
+  "bbox": [
+   32.6483,
+   -18.7477,
+   42.1374,
+   -6.2125
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Qatar",
+  "bbox": [
+   24.5646,
+   50.7629,
+   26.1533,
+   51.6089
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Republic of Serbia",
+  "bbox": [
+   42.2421,
+   18.8936,
+   46.1692,
+   22.9769
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Republic of the Congo",
+  "bbox": [
+   -5.0043,
+   11.19,
+   3.6873,
+   18.6222
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Romania",
+  "bbox": [
+   43.6708,
+   20.281,
+   48.2635,
+   29.7059
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Russia-A",
+  "bbox": [
+   64.2797,
+   -180.0,
+   71.5962,
+   -169.7779
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Russia-B-1",
+  "bbox": [
+   41.1993,
+   19.6442,
+   61.5267,
+   42.5522
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Russia-B-2",
+  "bbox": [
+   41.1993,
+   42.5522,
+   61.5267,
+   65.4602
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Russia-B-3",
+  "bbox": [
+   41.1993,
+   65.4602,
+   61.5267,
+   88.3681
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Russia-B-4",
+  "bbox": [
+   41.1993,
+   88.3681,
+   61.5267,
+   111.2761
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Russia-B-5",
+  "bbox": [
+   41.1993,
+   111.2761,
+   61.5267,
+   134.1841
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Russia-B-6",
+  "bbox": [
+   41.1993,
+   134.1841,
+   61.5267,
+   157.092
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Russia-B-7",
+  "bbox": [
+   41.1993,
+   157.092,
+   61.5267,
+   180.0
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Russia-B-8",
+  "bbox": [
+   61.5267,
+   19.6442,
+   81.8542,
+   42.5522
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Russia-B-9",
+  "bbox": [
+   61.5267,
+   42.5522,
+   81.8542,
+   65.4602
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Russia-B-10",
+  "bbox": [
+   61.5267,
+   65.4602,
+   81.8542,
+   88.3681
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Russia-B-11",
+  "bbox": [
+   61.5267,
+   88.3681,
+   81.8542,
+   111.2761
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Russia-B-12",
+  "bbox": [
+   61.5267,
+   111.2761,
+   81.8542,
+   134.1841
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Russia-B-13",
+  "bbox": [
+   61.5267,
+   134.1841,
+   81.8542,
+   157.092
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Russia-B-14",
+  "bbox": [
+   61.5267,
+   157.092,
+   81.8542,
+   180.0
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Rwanda",
+  "bbox": [
+   -2.8086,
+   28.8576,
+   -1.0631,
+   30.8766
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Saint Kitts and Nevis",
+  "bbox": [
+   17.1006,
+   -62.8405,
+   17.4026,
+   -62.5322
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Saint Lucia",
+  "bbox": [
+   13.7176,
+   -61.0636,
+   14.0934,
+   -60.8952
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Saint Vincent and the Grenadines",
+  "bbox": [
+   12.6947,
+   -61.3511,
+   13.3587,
+   -61.124
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Samoa",
+  "bbox": [
+   -14.0473,
+   -172.7441,
+   -13.4652,
+   -171.4541
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "San Marino",
+  "bbox": [
+   43.8941,
+   12.4264,
+   43.9897,
+   12.5037
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Saudi Arabia",
+  "bbox": [
+   16.3718,
+   34.6162,
+   32.1245,
+   55.6074
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Senegal",
+  "bbox": [
+   12.328,
+   -17.445,
+   16.6789,
+   -11.3824
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Seychelles",
+  "bbox": [
+   -4.7855,
+   55.4168,
+   -4.5588,
+   55.543
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Sierra Leone",
+  "bbox": [
+   6.9065,
+   -13.2927,
+   9.9965,
+   -10.2832
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Singapore",
+  "bbox": [
+   1.2654,
+   103.7053,
+   1.4471,
+   103.9964
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Slovakia",
+  "bbox": [
+   47.7634,
+   16.8654,
+   49.5977,
+   22.5387
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Slovenia",
+  "bbox": [
+   45.4284,
+   13.3782,
+   46.8633,
+   16.5057
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Solomon Islands",
+  "bbox": [
+   -11.8322,
+   155.6775,
+   -6.6089,
+   166.9292
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Somalia",
+  "bbox": [
+   -1.6953,
+   40.965,
+   11.9837,
+   51.3846
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Somaliland",
+  "bbox": [
+   7.9971,
+   42.6564,
+   11.4998,
+   48.9386
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "South Africa",
+  "bbox": [
+   -46.9629,
+   16.4808,
+   -22.1463,
+   37.8877
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "South Korea",
+  "bbox": [
+   33.2015,
+   126.0075,
+   38.6234,
+   130.9343
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "South Sudan",
+  "bbox": [
+   3.4907,
+   24.1604,
+   12.2231,
+   35.2684
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Spain",
+  "bbox": [
+   27.6464,
+   -18.1359,
+   43.7646,
+   4.3221
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Sri Lanka",
+  "bbox": [
+   5.9494,
+   79.7078,
+   9.8127,
+   81.877
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Sudan",
+  "bbox": [
+   8.6656,
+   21.8418,
+   22.2024,
+   38.6095
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Suriname",
+  "bbox": [
+   1.8422,
+   -58.0545,
+   5.9935,
+   -54.0059
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Sweden",
+  "bbox": [
+   55.3464,
+   11.1669,
+   69.0369,
+   24.1555
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Switzerland",
+  "bbox": [
+   45.83,
+   5.97,
+   47.7756,
+   10.4546
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Syria",
+  "bbox": [
+   32.3173,
+   35.785,
+   37.2973,
+   42.3591
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "S\u00e3o Tom\u00e9 and Principe",
+  "bbox": [
+   0.0474,
+   6.4775,
+   1.6991,
+   7.4504
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Taiwan",
+  "bbox": [
+   21.925,
+   118.2873,
+   25.2769,
+   121.9052
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Tajikistan",
+  "bbox": [
+   36.684,
+   67.3496,
+   41.0351,
+   75.1188
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Thailand",
+  "bbox": [
+   5.6368,
+   97.3739,
+   20.4244,
+   105.6389
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "The Bahamas",
+  "bbox": [
+   20.9374,
+   -78.9358,
+   26.9401,
+   -72.7626
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Togo",
+  "bbox": [
+   6.0894,
+   -0.0902,
+   11.1156,
+   1.7432
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Tonga",
+  "bbox": [
+   -21.4506,
+   -175.3624,
+   -18.5653,
+   -173.924
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Trinidad and Tobago",
+  "bbox": [
+   10.0646,
+   -61.7717,
+   11.3235,
+   -60.5465
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Tunisia",
+  "bbox": [
+   30.2294,
+   7.4956,
+   37.3404,
+   11.5338
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Turkey",
+  "bbox": [
+   35.8314,
+   25.6689,
+   42.0933,
+   44.8172
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Turkmenistan",
+  "bbox": [
+   35.1708,
+   52.4938,
+   42.7785,
+   66.6293
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Tuvalu",
+  "bbox": [
+   -8.535,
+   179.1957,
+   -8.4663,
+   179.2137
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Uganda",
+  "bbox": [
+   -1.4699,
+   29.5619,
+   4.2202,
+   34.9775
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Ukraine",
+  "bbox": [
+   45.2341,
+   22.1318,
+   52.3536,
+   40.1262
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "United Arab Emirates",
+  "bbox": [
+   22.6215,
+   51.5722,
+   26.0682,
+   56.388
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "United Kingdom-A",
+  "bbox": [
+   -24.4126,
+   -128.3502,
+   -24.3232,
+   -128.2908
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "United Kingdom-B-1",
+  "bbox": [
+   -52.308,
+   -81.4191,
+   -31.1343,
+   -57.8085
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "United Kingdom-B-2",
+  "bbox": [
+   -31.1343,
+   -81.4191,
+   -9.9605,
+   -57.8085
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "United Kingdom-B-3",
+  "bbox": [
+   -9.9605,
+   -81.4191,
+   11.2132,
+   -57.8085
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "United Kingdom-B-4",
+  "bbox": [
+   11.2132,
+   -81.4191,
+   32.3869,
+   -57.8085
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "United Kingdom-C-1",
+  "bbox": [
+   -58.4923,
+   -37.9455,
+   -34.6275,
+   -18.0995
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "United Kingdom-C-2",
+  "bbox": [
+   -58.4923,
+   -18.0995,
+   -34.6275,
+   1.7466
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "United Kingdom-C-3",
+  "bbox": [
+   -34.6275,
+   -37.9455,
+   -10.7626,
+   -18.0995
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "United Kingdom-C-4",
+  "bbox": [
+   -34.6275,
+   -18.0995,
+   -10.7626,
+   1.7466
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "United Kingdom-C-5",
+  "bbox": [
+   -10.7626,
+   -37.9455,
+   13.1022,
+   -18.0995
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "United Kingdom-C-6",
+  "bbox": [
+   -10.7626,
+   -18.0995,
+   13.1022,
+   1.7466
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "United Kingdom-C-7",
+  "bbox": [
+   13.1022,
+   -37.9455,
+   36.9671,
+   -18.0995
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "United Kingdom-C-8",
+  "bbox": [
+   13.1022,
+   -18.0995,
+   36.9671,
+   1.7466
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "United Kingdom-C-9",
+  "bbox": [
+   36.9671,
+   -37.9455,
+   60.8319,
+   -18.0995
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "United Kingdom-C-10",
+  "bbox": [
+   36.9671,
+   -18.0995,
+   60.8319,
+   1.7466
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "United Kingdom-D",
+  "bbox": [
+   -7.4354,
+   72.3497,
+   -7.2204,
+   72.4936
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "United Republic of Tanzania",
+  "bbox": [
+   -11.7162,
+   29.3234,
+   -0.9949,
+   40.4636
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "United States of America-A-1",
+  "bbox": [
+   -14.3598,
+   -178.1683,
+   7.0821,
+   -155.4666
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "United States of America-A-2",
+  "bbox": [
+   -14.3598,
+   -155.4666,
+   7.0821,
+   -132.7649
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "United States of America-A-3",
+  "bbox": [
+   -14.3598,
+   -132.7649,
+   7.0821,
+   -110.0632
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "United States of America-A-4",
+  "bbox": [
+   -14.3598,
+   -110.0632,
+   7.0821,
+   -87.3615
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "United States of America-A-5",
+  "bbox": [
+   -14.3598,
+   -87.3615,
+   7.0821,
+   -64.6598
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "United States of America-A-6",
+  "bbox": [
+   7.0821,
+   -178.1683,
+   28.524,
+   -155.4666
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "United States of America-A-7",
+  "bbox": [
+   7.0821,
+   -155.4666,
+   28.524,
+   -132.7649
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "United States of America-A-8",
+  "bbox": [
+   7.0821,
+   -132.7649,
+   28.524,
+   -110.0632
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "United States of America-A-9",
+  "bbox": [
+   7.0821,
+   -110.0632,
+   28.524,
+   -87.3615
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "United States of America-A-10",
+  "bbox": [
+   7.0821,
+   -87.3615,
+   28.524,
+   -64.6598
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "United States of America-A-11",
+  "bbox": [
+   28.524,
+   -178.1683,
+   49.9658,
+   -155.4666
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "United States of America-A-12",
+  "bbox": [
+   28.524,
+   -155.4666,
+   49.9658,
+   -132.7649
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "United States of America-A-13",
+  "bbox": [
+   28.524,
+   -132.7649,
+   49.9658,
+   -110.0632
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "United States of America-A-14",
+  "bbox": [
+   28.524,
+   -110.0632,
+   49.9658,
+   -87.3615
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "United States of America-A-15",
+  "bbox": [
+   28.524,
+   -87.3615,
+   49.9658,
+   -64.6598
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "United States of America-A-16",
+  "bbox": [
+   49.9658,
+   -178.1683,
+   71.4077,
+   -155.4666
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "United States of America-A-17",
+  "bbox": [
+   49.9658,
+   -155.4666,
+   71.4077,
+   -132.7649
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "United States of America-A-18",
+  "bbox": [
+   49.9658,
+   -132.7649,
+   71.4077,
+   -110.0632
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "United States of America-A-19",
+  "bbox": [
+   49.9658,
+   -110.0632,
+   71.4077,
+   -87.3615
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "United States of America-A-20",
+  "bbox": [
+   49.9658,
+   -87.3615,
+   71.4077,
+   -64.6598
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "United States of America-B",
+  "bbox": [
+   13.2575,
+   144.6493,
+   18.8068,
+   145.8219
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "United States of America-C",
+  "bbox": [
+   51.3722,
+   172.4948,
+   53.013,
+   179.78
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Uruguay",
+  "bbox": [
+   -34.9328,
+   -58.4113,
+   -30.1011,
+   -53.1573
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Uzbekistan",
+  "bbox": [
+   37.1722,
+   55.9758,
+   45.5554,
+   73.1321
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Vanuatu",
+  "bbox": [
+   -20.2418,
+   166.5272,
+   -13.7095,
+   169.8963
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Vatican",
+  "bbox": [
+   41.8976,
+   12.4275,
+   41.9062,
+   12.4392
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Venezuela",
+  "bbox": [
+   0.688,
+   -73.3563,
+   12.1779,
+   -59.8289
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Vietnam",
+  "bbox": [
+   8.5833,
+   102.1274,
+   23.3452,
+   109.4239
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "Western Sahara",
+  "bbox": [
+   20.8062,
+   -17.0988,
+   27.6564,
+   -8.6821
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ },
+ {
+  "name": "Yemen",
+  "bbox": [
+   12.319,
+   42.549,
+   18.9961,
+   54.45
+  ],
+  "server": "https://overpass-api.de/api/interpreter"
+ },
+ {
+  "name": "Zambia",
+  "bbox": [
+   -18.0415,
+   21.9789,
+   -8.1937,
+   33.6591
+  ],
+  "server": "https://overpass.kumi.systems/api/interpreter"
+ },
+ {
+  "name": "Zimbabwe",
+  "bbox": [
+   -22.4021,
+   25.224,
+   -15.6431,
+   33.0049
+  ],
+  "server": "https://overpass.private.coffee/api/interpreter"
+ },
+ {
+  "name": "eSwatini",
+  "bbox": [
+   -27.31,
+   30.7875,
+   -25.743,
+   32.1129
+  ],
+  "server": "https://overpass.openstreetmap.ru/api/interpreter"
+ }
+]
